@@ -56,7 +56,6 @@ memory-game/
 
 **Mobile View**
 ![mobile](images/screenshot-mobile.png)
-<img src="images/screenshot-mobile.png" alt="Mobile View" width="300">
 
 **Code Example**
 ![code](images/screenshot-code.png)
