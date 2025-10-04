@@ -1,12 +1,8 @@
-# Node dependencies
-node_modules/
-
-# Build output
-dist/
-
-# VSCode settings
-.vscode/
-
+node_modules
+src
+.git
+package-lock.json
+.vscode
 
 
 
