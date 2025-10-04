@@ -1,0 +1,26 @@
+body {
+  background: url("images/backg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+#content {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+#cards img {
+  width: 13%;
+  height: 13%;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.4s;
+  border: 1px solid black;
+}
+
+#cards img:hover {
+  transform: scale(1.05);
+}

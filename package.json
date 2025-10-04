@@ -1,0 +1,21 @@
+{
+  "name": "type-script",
+  "version": "1.0.0",
+  "description": "A simple memory game built with TypeScript and Bootstrap.",
+  "homepage": "https://MaryamMahmoudSayed.github.io/memory-game-ts",
+  "main": "main.js",
+  "scripts": {
+    "start": "lite-server",
+    "build": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "Maryam Mahmoud",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.9.3",
+    "undici-types": "^7.16.0"
+  }
+}
