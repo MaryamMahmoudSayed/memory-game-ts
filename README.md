@@ -37,7 +37,7 @@ This project was created as part of my journey learning **UI/UX** and **Frontend
 
 memory-game/
 ├── src/ # TypeScript source files (.ts)
-├── dist/ # Compiled JavaScript output (after build)
+├── dir/ # Compiled JavaScript output (after build)
 ├── audio/ # Game sounds
 ├── images/ # Card images
 ├── index.html # Main HTML file
