@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Card = void 0;
-class Card {
+export class Card {
     constructor(index, value) {
         this.isFlipped = false;
         this.index = index;
@@ -18,4 +15,3 @@ class Card {
         this.isFlipped = false;
     }
 }
-exports.Card = Card;

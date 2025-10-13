@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Game = void 0;
-const card_js_1 = require("./card.js");
-class Game {
+import { Card } from "./card.js";
+export class Game {
     constructor(container, progressBar) {
         this.cards = [];
         this.first = null;
@@ -25,7 +22,7 @@ class Game {
                 this.bgMusic.play();
         }, { once: true });
         images.forEach((value, i) => {
-            const card = new card_js_1.Card(i, value);
+            const card = new Card(i, value);
             this.cards.push(card);
             container.appendChild(card.element);
             card.element.addEventListener("click", () => this.handleClick(card));
@@ -77,4 +74,3 @@ class Game {
         this.progressBar.textContent = percent + "%";
     }
 }
-exports.Game = Game;
