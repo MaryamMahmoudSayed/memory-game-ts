@@ -1,7 +1,7 @@
 # 🎮 Memory Game (TypeScript + Bootstrap)
 
-![cover](images/cover.png)
-![demo-gif](images/demo.gif)
+![cover](dist/images/cover.png)
+![demo-gif](dist/images/demo.gif)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Demo](https://img.shields.io/badge/demo-live-green.svg)](https://MaryamMahmoudSayed.github.io/memory-game-ts)
 
@@ -52,13 +52,13 @@ memory-game/
 ## 📸 Screenshots
 
 **Desktop View**
-![desktop](images/screenshot-desktop.png)
+![desktop](dist/images/screenshot-desktop.png)
 
 **Mobile View**
-![mobile](images/screenshot-mobile.png)
+![mobile](dist/images/screenshot-mobile.png)
 
 **Code Example**
-![code](images/screenshot-code.png)
+![code](dist/images/screenshot-code.png)
 
 ---
 
